@@ -1,3 +1,59 @@
+Metadata-Version: 2.1
+Name: pyneurorg
+Version: 0.1.19
+Summary: Python Brain Organoid Simulator
+Home-page: https://github.com/your_username/pyneurorg
+Author: Luciano Silva/Bioquaintum Research & Development
+Author-email: luciano.silva@bioquaintum.io
+Project-URL: Bug Tracker, https://github.com/bioquaintum/pyneurorg/issues
+Project-URL: Documentation, https://pyneurorg.readthedocs.io/
+Project-URL: Source Code, https://github.com/bioquaintum/pyneurorg
+Keywords: brain organoid neuronal simulation brian2 computational neuroscience
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: brian2>=2.5
+Requires-Dist: numpy>=1.20
+Requires-Dist: matplotlib>=3.4
+Requires-Dist: scipy>=1.7
+Requires-Dist: networkx>=2.6
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: flake8>=3.9; extra == "dev"
+Requires-Dist: black>=21.0b0; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Requires-Dist: jupyterlab; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=4.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=1.0; extra == "docs"
+Requires-Dist: nbsphinx>=0.8; extra == "docs"
+Requires-Dist: ipykernel; extra == "docs"
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == "test"
+Provides-Extra: all-extras
+Requires-Dist: pytest>=6.0; extra == "all-extras"
+Requires-Dist: flake8>=3.9; extra == "all-extras"
+Requires-Dist: black>=21.0b0; extra == "all-extras"
+Requires-Dist: ipykernel; extra == "all-extras"
+Requires-Dist: jupyterlab; extra == "all-extras"
+Requires-Dist: sphinx>=4.0; extra == "all-extras"
+Requires-Dist: sphinx-rtd-theme>=1.0; extra == "all-extras"
+Requires-Dist: nbsphinx>=0.8; extra == "all-extras"
+Requires-Dist: ipykernel; extra == "all-extras"
+Requires-Dist: pytest>=6.0; extra == "all-extras"
+
  
 # PYNEURORG
 ## Python Brain Organoid Simulator

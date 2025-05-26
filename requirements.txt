@@ -1,0 +1,10 @@
+# pyneurorg runtime dependencies
+# These are the packages required for pyneurorg to function.
+# This file is typically read by setup.py to populate 'install_requires'.
+
+brian2>=2.5
+numpy>=1.20
+matplotlib>=3.4
+scipy>=1.7
+networkx>=2.6
+# sqlite3 is part of the Python standard library, so it doesn't need to be listed here.
