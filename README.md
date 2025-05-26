@@ -1,13 +1,11 @@
- 
-# PYNEURORG
-## Python Brain Organoid Simulator
+![logo](logo.png) 
 
-**pyneurorg** is a Python module designed for simulating brain organoids, leveraging the power and flexibility of the Brian2 spiking neural network simulator. It provides a structured framework to model neurons and synapses within organoids, simulate their development and activity, and interact with them using simulated Microelectrode Arrays (MEAs) and calcium imaging techniques.
+**pyneurorg** is a Python module designed for simulating neural (brain) organoids, leveraging the power and flexibility of the Brian2 spiking neural network simulator. It provides a structured framework to model neurons and synapses within organoids, simulate their development and activity, and interact with them using simulated Microelectrode Arrays (MEAs) and calcium imaging techniques.
 
 ## Objective
 
 The primary goal of `pyneurorg` is to provide researchers with an accessible, modular, and extensible in-silico platform to:
-*   Model the formation and maturation of neural networks in brain organoids.
+*   Model the formation and maturation of neural networks in neural organoids.
 *   Simulate electrophysiological experiments, including MEA-based stimulation and recording.
 *   Simulate calcium imaging experiments to observe network activity with high spatial resolution.
 *   Investigate the effects of various stimuli, genetic modifications, or disease states on organoid network dynamics.
