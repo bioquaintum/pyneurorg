@@ -48,7 +48,6 @@ If `pyneurorg` is published on the Python Package Index (PyPI), you can install 
 ```bash
 pip install pyneurorg
 ```
-*(Note: This requires the package to be uploaded to PyPI by the developers.)*
 
 ### Option 2: Install from a local directory (For developers or from source)
 
